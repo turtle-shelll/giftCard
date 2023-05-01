@@ -1,0 +1,21 @@
+.navbar {
+  display: flex;
+  align-items: center;
+}
+.PersonBtn {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+}
+.menuBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+}
+.PersonBtn:hover,
+.menuBtn:hover {
+  opacity: 0.8;
+}

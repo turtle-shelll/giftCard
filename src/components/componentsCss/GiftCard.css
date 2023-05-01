@@ -1,0 +1,84 @@
+.giftCardContainer {
+  background-color: gray;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 0.6rem;
+  max-width: 20rem;
+  min-width: 20rem;
+  /* background-image: linear-gradient(-125deg,#212111 ,#575757); */
+  background-image: linear-gradient(-125deg, #0079db 10%, #074c85);
+}
+.giftIcon {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cardLabel {
+  display: flex;
+  align-items: center;
+}
+.cardHeading {
+  text-align: center;
+  margin-left: -2rem;
+  color: #212111;
+}
+.imgLogoContainer {
+  width: 60%;
+  height: 2rem;
+  /* background-color: blue; */
+  display: flex;
+  overflow: hidden;
+  margin-top: 0.5rem;
+  /* background-position: center; */
+}
+.amazonLogo {
+  object-fit: cover;
+  width: 100%;
+}
+.flipkartLogo {
+  object-fit: cover;
+  width: 85%;
+  /* margin-top: -1rem; */
+}
+.priceBox {
+  display: flex;
+}
+.detailBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0079db;
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  border-radius: 5rem;
+}
+.detailBtn:hover {
+  cursor: pointer;
+  background-color: #0079db99;
+}
+.cardBottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.redeemBtn {
+  width: 100%;
+  text-align: center;
+  background-color: #212111;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+}
+.redeemBtnText {
+  font-size: 16;
+  font-weight: 600;
+  color: aliceblue;
+}
+.redeemBtn:hover {
+  cursor: pointer;
+  background-color: #21211177;
+}
+/* .redeemBtn:hover .redeemBtnText{
+    color: red;
+} */
