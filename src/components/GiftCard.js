@@ -25,12 +25,12 @@ export default function GiftCard({
             className={brand === "flipkart" ? "flipkartLogo" : "amazonLogo"}
           />
         </div>
-        <h2 className="cardHeading" style={{marginTop:brand !== "flipkart"&&("-0.5rem") }}>Gift Card</h2>
+        <h2 className="cardHeading" style={{marginTop:brand !== "flipkart"?("-0.2rem"):("0.2rem") }}>Gift Card</h2>
       </div>
       <div className="cardBottom">
         <div className="priceBox">
           {/* <p>Price :-</p> */}
-          <h3>₹ {price}/-</h3>
+          <h3 className="price">₹{price}/-</h3>
         </div>
         <span
           className="detailBtn"

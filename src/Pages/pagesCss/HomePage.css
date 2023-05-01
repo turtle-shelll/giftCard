@@ -1,3 +1,7 @@
+.homeSection{
+    background-image: url("../../assests/images/bg-1.jpg");
+    /* background-image: url("../../assests/images/bg-2.jpg"); */
+}
 .navbarContainer{
     background-color: #212111;
 }

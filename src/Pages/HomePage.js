@@ -66,7 +66,7 @@ export default function HomePage() {
     },
   ];
   return (
-    <div>
+    <div className="homeSection">
       <div className="navbarContainer">
         <TopNavbar />
       </div>
